@@ -176,9 +176,9 @@ h1 {
 }
 
 /* initial offset so arrows slide in */
-path.one   { transform: translateX(-10px); }
+path.one   { transform: translateX(-4px); }
 path.two   { transform: translateX(-6px); }
-path.three { transform: translateX(-4px); }
+path.three { transform: translateX(-8px); }
 
 /* hover effects: slide in + color animation */
 .btn-cta:hover path.one {

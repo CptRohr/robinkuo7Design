@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - robin_kuo7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get in touch with robin_kuo7">
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="logo">
+            <span class="font-rodin-eb">robin_kuo7</span>
+        </div>
+        <nav class="main-nav">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="works.html" class="nav-link">Works</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="hero-decoration">
+            <div class="deco-element elem-1"></div>
+            <div class="deco-element elem-2"></div>
+            <div class="deco-element elem-3"></div>
+        </div>
+        <div class="contact-hero-content">
+            <div class="hero-label">
+                <span class="font-bmspa">LET'S CONNECT</span>
+            </div>
+            <h1 class="font-rodin-eb">GET IN TOUCH</h1>
+            <p class="font-rodin-l hero-subtitle">
+                Have a project in mind? Let's create something amazing together!
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="contact-main">
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <div class="form-header">
+                    <h2 class="font-rodin-eb">SEND A MESSAGE</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label class="font-rodin-eb">YOUR NAME</label>
+                        <input type="text" id="name" placeholder="Enter your name" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="font-rodin-eb">EMAIL ADDRESS</label>
+                        <input type="email" id="email" placeholder="your@email.com" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="font-rodin-eb">SUBJECT</label>
+                        <input type="text" id="subject" placeholder="Project inquiry" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="font-rodin-eb">MESSAGE</label>
+                        <textarea id="message" rows="6" placeholder="Tell me about your project..." class="form-textarea"></textarea>
+                    </div>
+
+                    <button type="button" class="submit-btn font-rodin-eb" onclick="handleSubmit()">
+                        <span>SEND MESSAGE</span>
+                        <span class="btn-arrow">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info-wrapper">
+                <div class="info-header">
+                    <h2 class="font-rodin-eb">CONTACT INFO</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <span class="font-rodin-eb">📧</span>
+                        </div>
+                        <h3 class="font-rodin-eb">EMAIL</h3>
+                        <p class="font-rodin-l">your.email@example.com</p>
+                        <a href="mailto:your.email@example.com" class="info-link font-bmspa">SEND EMAIL</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <span class="font-rodin-eb">📱</span>
+                        </div>
+                        <h3 class="font-rodin-eb">PHONE</h3>
+                        <p class="font-rodin-l">+62 XXX XXXX XXXX</p>
+                        <a href="tel:+62XXXXXXXXXX" class="info-link font-bmspa">CALL NOW</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <span class="font-rodin-eb">📍</span>
+                        </div>
+                        <h3 class="font-rodin-eb">LOCATION</h3>
+                        <p class="font-rodin-l">Blitar, East Java<br>Indonesia</p>
+                        <a href="#" class="info-link font-bmspa">VIEW MAP</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <span class="font-rodin-eb">🔗</span>
+                        </div>
+                        <h3 class="font-rodin-eb">SOCIAL MEDIA</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link font-bmspa">INSTAGRAM</a>
+                            <a href="#" class="social-link font-bmspa">TWITTER</a>
+                            <a href="#" class="social-link font-bmspa">LINKEDIN</a>
+                            <a href="#" class="social-link font-bmspa">BEHANCE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links-section">
+        <div class="quick-links-content">
+            <h2 class="font-rodin-eb">EXPLORE MORE</h2>
+            <div class="links-grid">
+                <a href="portfolio.html" class="quick-link">
+                    <span class="link-number font-bmspa">01</span>
+                    <span class="link-text font-rodin-eb">VIEW PORTFOLIO</span>
+                    <span class="link-arrow">→</span>
+                </a>
+                <a href="about.html" class="quick-link">
+                    <span class="link-number font-bmspa">02</span>
+                    <span class="link-text font-rodin-eb">ABOUT ME</span>
+                    <span class="link-arrow">→</span>
+                </a>
+                <a href="home.html" class="quick-link">
+                    <span class="link-number font-bmspa">03</span>
+                    <span class="link-text font-rodin-eb">BACK HOME</span>
+                    <span class="link-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <span class="font-rodin-eb">robin_kuo7</span>
+                <p class="font-rodin-l">Graphic Designer & Creative</p>
+            </div>
+            <div class="footer-right">
+                <span class="font-bmspa">© 2025 ALL RIGHTS RESERVED</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact-script.js"></script>
+</body>
+</html>
